@@ -3,11 +3,11 @@ A comprehensive, framework-driven (NIST AI RMF, ISO 42001, EU AI Act) proposal t
 _________________________________________________________________________________________________
 ## Executive Summary
 This section focuses on business outcomes, risk reduction, and regulatory compliance using non-technical language.
-•	**Proactive Risk Mitigation:** Establishes **Defense-in-Depth** security and governance controls to protect against high-impact threats like **Data Poisoning** and **Adversarial Inputs** that target sensitive data.
-•	**Regulatory Compliance Assurance:** Lays the foundation for meeting strict obligations under regulations such as **EU AI Act** (High-Risk systems), **HIPAA**, and **GDPR** by mandating **Data Protection by Design**.
-•	**Clear Accountability & Oversight:** Defines an **AI Governance Board** and roles (CAIO, DPO, CISO) to establish clear **Accountability** and authority for all AI system outcomes and decisions involving regulated data.
-•	**Operational Resilience:** Implements a structured **AI Incident Response Playbook** to rapidly detect, contain, and recover from security events, minimizing regulatory penalties and operational downtime.
-•	**Auditability and Trust:** Ensures **Auditability** throughout the AI lifecycle via mandatory **Data Lineage** tracking, signed model artifacts, and continuous compliance reporting to the Governance Board.
+<br />• **Proactive Risk Mitigation:** Establishes **Defense-in-Depth** security and governance controls to protect against high-impact threats like **Data Poisoning** and **Adversarial Inputs** that target sensitive data.
+<br />•	**Regulatory Compliance Assurance:** Lays the foundation for meeting strict obligations under regulations such as **EU AI Act** (High-Risk systems), **HIPAA**, and **GDPR** by mandating **Data Protection by Design**.
+<br />•	**Clear Accountability & Oversight:** Defines an **AI Governance Board** and roles (CAIO, DPO, CISO) to establish clear **Accountability** and authority for all AI system outcomes and decisions involving regulated data.
+<br />•	**Operational Resilience:** Implements a structured **AI Incident Response Playbook** to rapidly detect, contain, and recover from security events, minimizing regulatory penalties and operational downtime.
+<br />•	**Auditability and Trust:** Ensures **Auditability** throughout the AI lifecycle via mandatory **Data Lineage** tracking, signed model artifacts, and continuous compliance reporting to the Governance Board.
 ________________________________________
 ## The Core Proposal (Policy Overview)
 This summarizes the fundamental pillars of your governance policy.
@@ -20,9 +20,9 @@ This summarizes the fundamental pillars of your governance policy.
 _________________________________________________________________________________________________
 ## Key Technical Controls (The SME Deep Dive)
 This section briefly lists the specialized AI security components for technical reviewers (SMEs).
-The technical architecture is built on **Secure MLOps Principles** and focuses on maintaining **Model Integrity** and **Data Confidentiality** across the entire lifecycle.
-•	**Secure Development Environment:** Training environments must be **sandboxed** with **no external egress** and enforce **Role-Based Access Control (RBAC)** to sensitive **Feature Stores**.
-•	**Continuous Trustworthiness Monitoring:** Implementation of **Continuous drift monitoring** for both model and data integrity, with mandatory **Fairness and bias audits** conducted quarterly for high-risk systems.
-•	**Model Integrity Verification:** Requires **Signed Model Artifacts** and a **Software Bill of Materials (SBOM)** for every model deployed to prevent tampering or supply chain attacks.
-•	**Adversarial Resilience Controls:** Includes **Prompt Injection Detection and Filtering** and real-time monitoring of external AI outputs for unexpected leakage of proprietary/regulated data.
-•	**Data Protection Measures:** Specifies **Encryption (AES-256+)** with HSM-backed key management and enforced **Secure Data Retention and Deletion Schedules** for all regulated PII/PHI.
+<br />The technical architecture is built on **Secure MLOps Principles** and focuses on maintaining **Model Integrity** and **Data Confidentiality** across the entire lifecycle.
+<br />• **Secure Development Environment:** Training environments must be **sandboxed** with **no external egress** and enforce **Role-Based Access Control (RBAC)** to sensitive **Feature Stores**.
+<br />•	**Continuous Trustworthiness Monitoring:** Implementation of **Continuous drift monitoring** for both model and data integrity, with mandatory **Fairness and bias audits** conducted quarterly for high-risk systems.
+<br />•	**Model Integrity Verification:** Requires **Signed Model Artifacts** and a **Software Bill of Materials (SBOM)** for every model deployed to prevent tampering or supply chain attacks.
+<br />•	**Adversarial Resilience Controls:** Includes **Prompt Injection Detection and Filtering** and real-time monitoring of external AI outputs for unexpected leakage of proprietary/regulated data.
+<br />•	**Data Protection Measures:** Specifies **Encryption (AES-256+)** with HSM-backed key management and enforced **Secure Data Retention and Deletion Schedules** for all regulated PII/PHI.
