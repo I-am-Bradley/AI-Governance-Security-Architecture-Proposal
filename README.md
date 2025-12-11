@@ -11,10 +11,12 @@ This section focuses on business outcomes, risk reduction, and regulatory compli
 ________________________________________
 ## The Core Proposal (Policy Overview)
 This summarizes the fundamental pillars of your governance policy.
-Pillar	Policy Requirement	Strategic Goal
-Accountability	The AI Governance Model is based on clear roles and responsibilities (RACI Matrix) and escalation paths defined for every stage of the AI lifecycle.	Defines who owns the risk and the decision rights when an ethical or security incident occurs.
-Transparency	Mandates the use of Model Cards, AI System Registries, and detailed documentation to provide human-understandable logic for all high-risk AI decisions.	Enables human oversight and satisfies regulatory requirements for Explainability (XAI).
-Security	Enforces a Zero Trust Model architecture, Least Privilege Access, and Encryption at rest and in transit for all sensitive data and model components.	Prevents unauthorized access, tampering, and data leakage, aligning with ISO/IEC 27001 standards.
+
+| Pillar	       | Policy Requirement  |    Strategic Goal                                             |
+| -------------- |:------------------: |:------------------------------------------------------------: |	
+| Accountability |	The **AI Governance Model** is based on clear roles and responsibilities (RACI Matrix) and escalation paths defined for every stage of the AI lifecycle. |	Defines who owns the risk and the decision rights when an ethical or security incident occurs. |
+|Transparency    |	Mandates the use of **Model Cards, AI System Registries**, and detailed documentation to provide human-understandable logic for all high-risk AI decisions. | Enables human oversight and satisfies regulatory requirements for **Explainability** (XAI). |
+|Security |	Enforces a **Zero Trust Model** architecture, **Least Privilege Access**, and **Encryption at rest and in transit** for all sensitive data and model components. | Prevents unauthorized access, tampering, and data leakage, aligning with ISO/IEC 27001 standards. |
 _________________________________________________________________________________________________
 ## Key Technical Controls (The SME Deep Dive)
 This section briefly lists the specialized AI security components for technical reviewers (SMEs).
