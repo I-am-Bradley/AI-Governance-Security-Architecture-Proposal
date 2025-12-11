@@ -1,0 +1,64 @@
+# 1. Introduction
+This section establishes mandatory standards for data classification, role-based accountability, and human oversight in AI systems handling sensitive, proprietary, or regulated information. It complements the existing governance, policy, risk, lifecycle, and monitoring frameworks by providing clear, auditable requirements that align with:
+<br />**NIST AI Risk Management Framework (NIST AI RMF 1.0) –** governance, trustworthy AI, and risk mitigation.
+<br />**EU AI Act (Articles 17, 19, 61, 62) –** high-risk AI compliance, human oversight, and post-market monitoring.
+<br />**ISO/IEC 42001:2023 –** AI management system requirements, organizational roles, and continuous assessment.
+<br />**GDPR, HIPAA, and CCPA –** privacy and sensitive data protection standards.
+<br />This section ensures AI systems are deployed in a responsible, ethical, and legally compliant manner, with clearly defined data handling, accountability, and human review mechanisms.
+________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+# 2. Data Classification and Tagging Policy
+## 2.1 Purpose
+To prevent unauthorized use or exposure of sensitive information and to comply with regulatory frameworks, all data entering AI pipelines must be classified, tagged, and approved before use.
+## 2.2 Classification Requirements
+All datasets must be labeled based on sensitivity:
+<br />**PHI (Protected Health Information):** Health-related personal data under HIPAA/GDPR.
+<br />**PII (Personally Identifiable Information):** Names, addresses, SSNs, or other identifiers.
+<br />**Internal:** Confidential organizational data not intended for public disclosure.
+<br />**Public:** Non-sensitive information available for public use.
+## 2.3 Operational Rules
+**Mandatory Pre-Ingestion Classification:** No data may be used in AI development or production without classification.
+<br />**Data Steward Approval:** Data Stewards review classification accuracy and enforce compliance.
+<br />**Audit Logging:** All classification actions and approvals are recorded in the AI System Registry for traceability.
+<br />**Integration with Privacy Policies:** Classification aligns with GDPR, HIPAA, CCPA, and internal privacy protocols.
+## 2.4 Benefits
+•	Protects the most sensitive assets first.
+<br />•	Provides audit evidence of compliance.
+<br />•	Reduces regulatory and operational risk in AI systems handling high-risk or regulated data.
+________________________________________________________________________________________________________________________________________________________________________________________________________
+# 3. Accountability Framework (RACI)
+## 3.1 Purpose
+To ensure clear ownership, responsibility, and oversight for AI outcomes, especially for high-risk decisions affecting patients, customers, or fundamental rights.
+## 3.2 RACI Matrix for High-Risk AI Systems
+| Stage/ Decision |	Responsible | Accountable |	Consulted |	Informed |
+| :-------------- | :---------- |:----------: |:--------- | :---------------------- |
+| Risk Classification |	AI System Owner |	CAIO | DPO, CISO | AI Governance Board |
+| Bias Mitigation & Fairness Controls	| AI Engineers | AI System Owner | DPO, CAIO | Governance Board |
+| Deployment Approval	|AI System Owner | AI Governance Board	| CAIO, CISO, DPO	| Stakeholders |
+| Human-in-the-Loop Decision | Human Reviewer / AI System Owner	| Governance Board | CAIO, DPO | Regulatory Authorities |
+| Incident Response & Escalation |	AI System Owner |	CAIO |	DPO, CISO |	Governance Board, Affected Parties |
+## 3.3 Principles
+•	Roles are clearly linked to regulatory, ethical, and operational responsibilities.
+<br />•	Ensures executive understanding of who is responsible when AI systems fail or cause harm.
+<br />•	Supports auditability, regulatory reporting, and public trust.
+________________________________________________________________________________________________________________________________________________________________________________________________________
+# 4. Human-in-the-Loop (HITL) for High-Risk AI
+## 4.1 Purpose
+High-risk AI systems may make decisions that affect health, safety, or fundamental rights. HITL ensures human oversight, review, and intervention where necessary.
+## 4.2 HITL Integration in AI Lifecycle
+**Governance Approval & Certification:** Human reviewer validates high-risk decision thresholds before deployment.
+<br />**Monitoring & Escalation:** Humans review alerts for bias drift, anomalous outputs, or compliance triggers.
+<br />**Incident Management:** Human-in-the-Loop intervention is mandatory when rollback, mitigation, or regulatory notification is required.
+## 4.3 Accountability
+•	Human reviewers are responsible for operational decisions.
+<br />•	AI Governance Board maintains oversight and ultimate accountability.
+<br />•	HITL checkpoints are documented in AI System Registry, providing traceability and regulatory evidence.
+## 4.4 Benefits
+•	Reduces ethical, operational, and legal risk.
+<br />•	Ensures trustworthy AI deployment.
+<br />•	Provides regulatory assurance for high-risk AI interventions.
+________________________________________________________________________________________________________________________________________________________________________________________________________
+# 5. Integration with Existing Governance Framework
+•	Data Classification feeds into Data Access & Governance Validation in the AI lifecycle.
+<br />•	RACI roles inform AI Governance Board approvals, incident management, and monitoring workflows.
+<br />•	HITL checkpoints are embedded in deployment, monitoring, and escalation processes.
+<br />Together, these policies ensure that AI operations are ethical, auditable, and compliant throughout the system lifecycle.
