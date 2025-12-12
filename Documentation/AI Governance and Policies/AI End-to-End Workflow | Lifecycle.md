@@ -1,0 +1,44 @@
+This section expands the AI Governance Framework by detailing the end-to-end lifecycle of AI systems. 
+_________________________________________________________________________________________________________________________________________________________________________________
+# 1. Workflow Overview
+The AI system lifecycle includes all stages from ideation to retirement and ensures governance, compliance, risk management, and ethical considerations are integrated throughout.
+<br />**NIST AI RMF:** "AI lifecycle stages should incorporate governance, risk controls, and continuous monitoring." (NIST AI RMF 1.0)
+<br />**ISO/IEC 42001:** "The AI lifecycle shall include planning, data preparation, model development, deployment, operation, and retirement." (ISO/IEC 42001:2023)
+<br />**EU AI Act:** "High-risk AI systems must follow a defined lifecycle process ensuring compliance by design and by default." (EU AI Act, Title III)
+________________________________________________________________________________________________________________________________________________________________
+# 2. Lifecycle Stages
+## 2.1 Ideation & Problem Definition
+<br />**Responsible:** Business Lead, AI System Owner
+<br />**Activities:** Define problem, determine data requirements, initial risk screening, register initiative
+<br />**Outputs:** Problem statement, preliminary risk classification, stakeholder map
+## 2.2 Data Access & Governance Validation
+**Responsible:** Data Stewards, DPO
+<br />**Activities:** Validate datasets, enforce privacy-by-design, approve data usage
+<br />**Outputs:** Approved dataset inventory, data approval certificate
+## 2.3 Model Design & Development
+**Responsible:** AI Engineers, Security Team
+<br />**Activities:** Feature engineering, secure architecture validation, integrate fairness and explainability controls
+<br />**Outputs:** Model prototype, security review report, model card v1
+## 2.4 Validation & Testing
+**Responsible:** AI Engineering, Risk & Compliance
+<br />**Activities:** Bias, fairness, robustness testing; PIA/DPIA; compile risk assessment
+<br />**Outputs:** Validation report, Risk Review Summary, model card v2
+## 2.5 Governance Approval & Certification
+**Responsible:** CAIO, DPO, CISO, AI Governance Board (high-risk)
+<br />**Activities:** Review all testing and documentation, approve deployment, perform conformity assessment for high-risk systems
+<br />**Outputs:** Formal approval record, compliance checklist
+## 2.6 Deployment & Integration
+**Responsible:** AI Engineers, DevOps, System Owner
+<br />**Activities:** Deploy to production, validate performance, configure monitoring and alerts
+<br />**Outputs:** Deployment record, monitoring dashboard
+## 2.7 Continuous Monitoring & Oversight
+**Responsible:** AI System Owner, AI Governance Office
+<br />**Activities:** Quarterly audits, incident logging, 90-day reporting for high-risk AI
+<br />**Outputs:** Monitoring and audit reports, updated risk status
+## 2.8 Retirement & Decommissioning
+**Responsible:** AI System Owner, Data Steward, IT Operations
+<br />**Activities:** Retire system, securely archive or delete data, document end-of-life rationale
+<br />**Outputs:** Decommissioning record, final compliance verification
+________________________________________________________________________________________________________________________________________________________________
+# 3. Integration
+This lifecycle workflow is closely integrated with the risk classification framework, approval workflow, policy statements, and escalation procedures to ensure consistent governance throughout the AI system’s lifetime.
