@@ -26,3 +26,8 @@ This section briefly lists the specialized AI security components for technical 
 -	**Model Integrity Verification:** Requires **Signed Model Artifacts** and a **Software Bill of Materials (SBOM)** for every model deployed to prevent tampering or supply chain attacks.
 -	**Adversarial Resilience Controls:** Includes **Prompt Injection Detection and Filtering** and real-time monitoring of external AI outputs for unexpected leakage of proprietary/regulated data.
 -	**Data Protection Measures:** Specifies **Encryption (AES-256+)** with HSM-backed key management and enforced **Secure Data Retention and Deletion Schedules** for all regulated PII/PHI.
+_________________________________________________________________________________________________
+## Evidence & Documentation Links
+- Link to: Final AI Governance Policy Document --> (https://github.com/I-am-Bradley/AI-Governance-Security-Architecture-Proposal/tree/main/Documentation)
+- Link to: 3-Slide Executive Presentation -->  (https://github.com/I-am-Bradley/AI-Governance-Security-Architecture-Proposal/blob/main/AI%20Governance%20Executive%20Summary.pptx)
+- Link to: Prompt Engineering (CoT) Inputs -->  (https://github.com/I-am-Bradley/AI-Governance-Security-Architecture-Proposal/blob/main/Prompt%20Engineering.md)
