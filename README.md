@@ -1,37 +1,209 @@
-# Risk-Based AI Governance & Security Architecture: Liability Reduction for Regulated Data (PII/PHI).
-A comprehensive, framework-driven (NIST AI RMF, ISO 42001, EU AI Act) proposal to deploy and manage AI systems with sensitive data, shifting from compliance as a cost center to a competitive advantage.
-_________________________________________________________________________________________________
-## Executive Summary
-This section focuses on business outcomes, risk reduction, and regulatory compliance using non-technical language.
-- **Proactive Risk Mitigation:** Establishes **Defense-in-Depth** security and governance controls to protect against high-impact threats like **Data Poisoning** and **Adversarial Inputs** that target sensitive data.
--	**Regulatory Compliance Assurance:** Lays the foundation for meeting strict obligations under regulations such as **EU AI Act** (High-Risk systems), **HIPAA**, and **GDPR** by mandating **Data Protection by Design**.
--	**Clear Accountability & Oversight:** Defines an **AI Governance Board** and roles (CAIO, DPO, CISO) to establish clear **Accountability** and authority for all AI system outcomes and decisions involving regulated data.
--	**Operational Resilience:** Implements a structured **AI Incident Response Playbook** to rapidly detect, contain, and recover from security events, minimizing regulatory penalties and operational downtime.
--	**Auditability and Trust:** Ensures **Auditability** throughout the AI lifecycle via mandatory **Data Lineage** tracking, signed model artifacts, and continuous compliance reporting to the Governance Board.
-________________________________________
-## The Core Proposal (Policy Overview)
-This summarizes the fundamental pillars of your governance policy.
+# AI Governance Security Architecture Proposal
 
-| Pillar	       | Policy Requirement  |    Strategic Goal                                             |
-| -------------- |:------------------: |:------------------------------------------------------------: |	
-| Accountability |	The **AI Governance Model** is based on clear roles and responsibilities (RACI Matrix) and escalation paths defined for every stage of the AI lifecycle. |	Defines who owns the risk and the decision rights when an ethical or security incident occurs. |
-|Transparency    |	Mandates the use of **Model Cards, AI System Registries**, and detailed documentation to provide human-understandable logic for all high-risk AI decisions. | Enables human oversight and satisfies regulatory requirements for **Explainability** (XAI). |
-|Security |	Enforces a **Zero Trust Model** architecture, **Least Privilege Access**, and **Encryption at rest and in transit** for all sensitive data and model components. | Prevents unauthorized access, tampering, and data leakage, aligning with ISO/IEC 27001 standards. |
-_________________________________________________________________________________________________
-## Key Technical Controls (The SME Deep Dive)
-This section briefly lists the specialized AI security components for technical reviewers (SMEs).
-<br />The technical architecture is built on **Secure MLOps Principles** and focuses on maintaining **Model Integrity** and **Data Confidentiality** across the entire lifecycle.
-- **Secure Development Environment:** Training environments must be **sandboxed** with **no external egress** and enforce **Role-Based Access Control (RBAC)** to sensitive **Feature Stores**.
--	**Continuous Trustworthiness Monitoring:** Implementation of **Continuous drift monitoring** for both model and data integrity, with mandatory **Fairness and bias audits** conducted quarterly for high-risk systems.
--	**Model Integrity Verification:** Requires **Signed Model Artifacts** and a **Software Bill of Materials (SBOM)** for every model deployed to prevent tampering or supply chain attacks.
--	**Adversarial Resilience Controls:** Includes **Prompt Injection Detection and Filtering** and real-time monitoring of external AI outputs for unexpected leakage of proprietary/regulated data.
--	**Data Protection Measures:** Specifies **Encryption (AES-256+)** with HSM-backed key management and enforced **Secure Data Retention and Deletion Schedules** for all regulated PII/PHI.
-_________________________________________________________________________________________________
-## Evidence & Documentation Links
-- Link to: Final AI Governance Policy Document --> (https://github.com/I-am-Bradley/AI-Governance-Security-Architecture-Proposal/tree/main/Documentation)
-- Link to: 3-Slide Executive Presentation -->  (https://github.com/I-am-Bradley/AI-Governance-Security-Architecture-Proposal/blob/main/AI%20Governance%20Executive%20Summary.pptx)
-- Link to: Prompt Engineering (CoT) Inputs -->  (https://github.com/I-am-Bradley/AI-Governance-Security-Architecture-Proposal/blob/main/Prompt%20Engineering.md)
+## 🧭 Project Overview
 
-_________________________________________________________________________________________________
-## Author
-**Titagwan Bradley** 
+### Title:
+Risk-Based AI Governance & Security Architecture: Liability Reduction for Regulated Data (PII/PHI)
+
+### Purpose
+
+This repository presents a comprehensive AI governance and security architecture designed to reduce organizational risk when deploying AI systems that process regulated data, including Personally Identifiable Information (PII) and Protected Health Information (PHI). The proposal leverages industry-recognized frameworks such as the **NIST AI Risk Management Framework (AI RMF)**, **ISO/IEC 42001**, and the **EU AI Act** to transform regulatory compliance into a strategic business advantage.
+
+### Audience
+
+- Executive Leadership (CISO, CIO, CTO, CFO)
+- AI Governance Teams
+- Security Architects
+- Compliance & Risk Officers
+- AI/ML Engineers
+- Enterprise Architects
+
+---
+
+# 🧱 Project Scope
+
+## Governance Framework
+
+Develops a governance model that establishes accountability, transparency, security, and operational oversight throughout the AI lifecycle.
+
+### Components
+
+- AI Governance Board
+- Governance Roles (CAIO, CISO, DPO)
+- RACI Matrix
+- AI Lifecycle Governance
+- Incident Response Framework
+- Compliance Reporting
+
+### Frameworks & Standards
+
+- NIST AI RMF
+- ISO/IEC 42001
+- EU AI Act
+- GDPR
+- HIPAA
+- Zero Trust Architecture
+
+---
+
+## Security Architecture
+
+Defines technical safeguards for protecting AI systems handling sensitive information.
+
+### Components
+
+- Secure MLOps Environment
+- Model Integrity Verification
+- Data Protection Controls
+- Trustworthiness Monitoring
+- Secure Deployment Pipeline
+
+### Security Techniques
+
+- Defense-in-Depth
+- Zero Trust
+- Role-Based Access Control (RBAC)
+- Least Privilege Access
+- Encryption (AES-256+)
+- Signed Model Artifacts
+- Software Bill of Materials (SBOM)
+- Prompt Injection Detection
+- Drift Monitoring
+- Fairness & Bias Auditing
+
+---
+
+# 📂 Repository Structure
+
+```text
+AI_Governance_Security_Architecture_Proposal/
+│
+├── README.md
+│
+├── Documentation/
+│   ├── Final_AI_Governance_Policy.pdf
+│   ├── AI_Governance_Framework.md
+│   ├── Risk_Assessment.md
+│   └── Supporting_Documentation/
+│
+├── AI Governance Executive Summary.pptx
+│
+└── Prompt Engineering.md
+```
+
+---
+
+# 🛡️ Governance Pillars
+
+| Pillar | Description | Strategic Goal |
+|---------|-------------|----------------|
+| Accountability | Defines governance roles, responsibilities, and decision ownership through a formal RACI model. | Establishes ownership for AI risk management and decision-making. |
+| Transparency | Requires Model Cards, AI System Registries, and comprehensive documentation for high-risk AI systems. | Supports explainability, human oversight, and regulatory compliance. |
+| Security | Implements Zero Trust Architecture, encryption, least privilege, and secure AI infrastructure. | Protects sensitive data and AI systems against unauthorized access and compromise. |
+
+---
+
+# 🔐 Security Controls
+
+The proposed architecture includes the following technical controls:
+
+- Secure MLOps environments with sandboxed model training
+- Role-Based Access Control (RBAC)
+- Continuous model and data drift monitoring
+- Quarterly fairness and bias assessments
+- Signed model artifacts
+- Software Bill of Materials (SBOM)
+- Prompt injection detection and filtering
+- Secure key management using HSMs
+- AES-256 encryption for data at rest and in transit
+- Secure data retention and deletion policies
+- AI Incident Response Playbooks
+
+---
+
+# 📊 Expected Outcomes
+
+Implementation of this governance architecture provides:
+
+- Reduced regulatory and legal risk
+- Improved compliance with global AI regulations
+- Stronger protection of sensitive PII and PHI
+- Increased organizational accountability
+- Enhanced AI transparency and explainability
+- Greater resilience against adversarial attacks
+- Improved audit readiness
+- Long-term operational trust in AI systems
+
+---
+
+# 🚀 How to Use This Repository
+
+## Executive Leadership
+
+→ Review the governance proposal to understand strategic risk reduction, investment priorities, and regulatory readiness.
+
+## Security Architects
+
+→ Use the security architecture and technical controls to design secure AI infrastructures.
+
+## AI Governance Teams
+
+→ Implement governance policies, accountability structures, and lifecycle oversight.
+
+## Compliance Officers
+
+→ Align governance practices with applicable regulatory frameworks and auditing requirements.
+
+## AI Engineers
+
+→ Apply Secure MLOps principles and technical safeguards throughout model development and deployment.
+
+---
+
+# 📈 Future Improvements
+
+- Implement enterprise AI governance program
+- Integrate continuous compliance monitoring
+- Expand adversarial AI testing
+- Develop organization-wide AI governance policy
+- Automate AI risk assessments
+- Periodically review governance controls against evolving regulations
+
+---
+
+# 📄 Documentation
+
+The repository includes:
+
+- AI Governance Policy Documentation
+- Executive Presentation
+- Prompt Engineering Documentation
+- Supporting Governance Resources
+
+---
+
+# 💻 Skills Demonstrated
+
+- AI Governance
+- AI Risk Management
+- Enterprise Security Architecture
+- Secure MLOps
+- Zero Trust Architecture
+- AI Compliance
+- Risk Assessment
+- Security Governance
+- Data Protection
+- Threat Modeling
+- Regulatory Compliance
+- Executive Communication
+- Technical Documentation
+
+---
+
+# 📬 Author
+
+**Bradley Titagwan**
+
+Version: v1.0
+
+Last Updated: November 2025
