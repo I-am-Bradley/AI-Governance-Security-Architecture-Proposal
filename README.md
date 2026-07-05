@@ -81,10 +81,36 @@ AI_Governance_Security_Architecture_Proposal/
 ├── README.md
 │
 ├── Documentation/
-│   ├── Final_AI_Governance_Policy.pdf
-│   ├── AI_Governance_Framework.md
-│   ├── Risk_Assessment.md
-│   └── Supporting_Documentation/
+│   ├── 1. AI Governance and Policies
+│   │   ├──  1. Introduction.md
+│   │   ├──  2. AI Governance Model and Roles.md
+│   │   ├──  3. AI Data Governance, Accountability, and Human Oversight.md
+│   │   ├──  4. AI Policy Statements.md
+│   │   ├──  5. AI Risk Classification Framework.md
+│   │   ├──  6. AI End-to-End Workflow | Lifecycle.md
+│   │   ├──  7. Escalation Paths & Incident Management.md
+│   │   └──  8. Monitoring & Recertification.md
+│   ├── 2. Technical Controls
+│   │   ├──  1. Introduction.md
+│   │   ├──  2. Secure AI System Architecture.md
+│   │   ├──  3. Data Security Controls
+│   │   │    ├──  3.1 Data Protection & Privacy Controls.md
+│   │   │    ├──  3.2 Data Lifecycle Security & Integrity Controls.md
+│   │   ├──  4. Model Security Controls.md
+│   │   ├──  5. Access Control & Identity Security for AI Systems.md
+│   │   ├──  6. Red-Team, Testing & Adversarial Evaluation for AI Systems.md
+│   │   ├──  7. AI Monitoring & Logging Controls (technical counterpart to governance monitoring).md
+│   │   ├──  8. Third-Party | Cloud AI Security.md
+│   │   ├──  9. Secure Deployment & Operational Resilience.md
+│   │   ├──  10. Incident Response For AI Security Events.md
+│   ├── 3. Ongoing Oversight
+│   │   ├──   1. Introduction.md
+│   │   ├──   2. Continuous Monitoring for AI Systems.md
+│   │   ├──   3. Periodic Risk Review & Recertification Policy.md
+│   │   ├──   4. AI Model Evaluation & Validation Requirements.md
+│   │   ├──   5. AI Risk Management Controls.md
+│   ├── 4. Appendices.md
+│   └── Generic AI Incident Response Playbook.md
 │
 ├── AI Governance Executive Summary.pptx
 │
