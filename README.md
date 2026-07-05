@@ -31,3 +31,7 @@ ________________________________________________________________________________
 - Link to: Final AI Governance Policy Document --> (https://github.com/I-am-Bradley/AI-Governance-Security-Architecture-Proposal/tree/main/Documentation)
 - Link to: 3-Slide Executive Presentation -->  (https://github.com/I-am-Bradley/AI-Governance-Security-Architecture-Proposal/blob/main/AI%20Governance%20Executive%20Summary.pptx)
 - Link to: Prompt Engineering (CoT) Inputs -->  (https://github.com/I-am-Bradley/AI-Governance-Security-Architecture-Proposal/blob/main/Prompt%20Engineering.md)
+
+_________________________________________________________________________________________________
+## Author
+**Titagwan Bradley** 
