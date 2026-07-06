@@ -3,7 +3,7 @@
 ## 🧭 Project Overview
 
 ### Title:
-Risk-Based AI Governance & Security Architecture: Liability Reduction for Regulated Data (PII/PHI)
+### Risk-Based AI Governance & Security Architecture: Liability Reduction for Regulated Data (PII/PHI)
 
 ### Purpose
 
